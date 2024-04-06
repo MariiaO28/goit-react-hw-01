@@ -1,0 +1,32 @@
+.table {
+    margin: 40px auto;
+    width: 850px;
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+
+.header {
+    background-color: black;
+    color: white;
+}
+
+ .headerName {
+    padding: 10px;
+    text-align: center;
+}
+
+.transaction {
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+
+.transaction:nth-child(even) {
+   background-color:lightgrey;
+}
+
+.transactionItem {
+  padding: 10px;
+  text-align: center;
+  border-right: 1px solid black;
+}
